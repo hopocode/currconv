@@ -1,5 +1,20 @@
 # currconv
 
+This application will convert currency from CZK. To see it in production visit: https://momence.jan-pospisil.cz/
+
+## Development:
+
+homepage: https://github.com/hopocode/currconv
+
+```sh
+git clone git@github.com:hopocode/currconv.git
+cd currconv
+npm ci
+npm run dev
+```
+
+## App design
+
 1. When it starts, retrieve the latest currency exchange rates from the Czech National Bank.  
    API URL: https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/daily.txt  
    Documentation: https://www.cnb.cz/en/faq/Format-of-the-foreign-exchange-market-rates/
